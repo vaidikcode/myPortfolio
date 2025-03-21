@@ -231,13 +231,7 @@ function Home() {
             {latestPosts.map((post, i) => (
               <div key={i} className="glass-effect rounded-2xl overflow-hidden card-hover">
                 <div className={`p-2 ${i === 0 ? 'bg-blue-500/20' : 'bg-purple-500/20'}`}>
-                  <div className={`flex items-center space-x-2 text-sm ${i === 0 ? 'text-blue-300' : 'text-purple-300'} p-2`}>
-                    <Calendar className="w-4 h-4" />
-                    <span>{post.date}</span>
-                    <span>•</span>
-                    <Clock className="w-4 h-4" />
-                    <span>{post.readTime}</span>
-                  </div>
+                  {/* Timestamp elements removed */}
                 </div>
                 <div className="p-6">
                   <h3 className={`text-xl font-bold mb-4 ${i === 0 ? 'text-blue-300' : 'text-purple-300'}`}>{post.title}</h3>
