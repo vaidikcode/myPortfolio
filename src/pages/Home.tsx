@@ -33,7 +33,7 @@ function Home() {
         <div className="absolute bottom-10 right-10 lg:bottom-20 lg:right-20 z-10">
           <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-lg">
             <img 
-              src="/images/yourimage.jpg" 
+              src="/images/yourimage.png" 
               alt="Vaidik Bhardwaj" 
               className="w-full h-full object-cover"
             />
